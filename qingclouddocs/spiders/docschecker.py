@@ -8,7 +8,7 @@ import requests
 
 class DocscheckerSpider(SitemapSpider):
     name = 'docschecker'
-    sitemap_urls = ['http://localhost:4000/sitemap.xml']#'http://localhost:4000']
+    sitemap_urls = ['http://localhost:4000/sitemap.xml','https://docs.qingcloud.com/sitemap.xml']
     handle_httpstatus_list = [404]
 
     def parse(self, response):
