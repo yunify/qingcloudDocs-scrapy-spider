@@ -28,7 +28,7 @@ PyDispatcher==2.0.5
 Pygments==2.2.0
 PyNaCl==1.1.2
 pyOpenSSL==17.5.0
-PyYAML==3.12
+PyYAML==5.4
 qingstor-sdk==2.2.5
 qsctl==1.7.4
 queuelib==1.4.2
